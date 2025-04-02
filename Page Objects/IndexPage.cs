@@ -55,17 +55,6 @@ namespace BDD_Task.Page_Objects
             return this;
         }
 
-        //public string GetActualTitle() 
-        //{
-        //    string linkActualTitle = driver.FindElement(By.XPath($"//span[@class='museo-sans-500 gradient-text']")).Text;
-        //    return linkActualTitle;
-        //}
-
-        //public IWebElement GetOreSection()
-        //{
-        //    return driver.FindElement(oreTitle);
-        //}
-
         //Wait helpers
         protected IWebElement WaitForElementToBeClickable(By locator)
         {
